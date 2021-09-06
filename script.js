@@ -43,9 +43,7 @@ button.addEventListener('click', function () {
         pas.style.animationTimingFunction = 'ease-in';
         pas.innerText = check
         password = ''
-    }
-       
-        
+    }      
 })
 
 function gene() {
