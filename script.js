@@ -30,7 +30,6 @@ for (let o of opti) {
     })
 }
 
-
 button.addEventListener('click', function () {
     const check=gene()
     if (check === undefined || check==='') {
@@ -86,6 +85,3 @@ function gene() {
         return password
     }
 }
-
-
-
