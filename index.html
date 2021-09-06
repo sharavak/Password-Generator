@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Password Generator</h1>
+            <div>
+                <input type="range" name="" id="len" min="5" max="30"><label for="">Password
+                    Length:</label><span></span>
+            </div>
+            <div>
+                <input type="checkbox" name="lower" class="opt" value="l"><label for="lower">Lower(a-z)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="upper" class="opt" value="u"><label for="upper">Upper(A-Z)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="digits" class="opt" value="d"><label for="digits">Digit(01254)</label>
+            </div>
+            <div>
+                <input type="checkbox" name="symb" class="opt" value="s"><label for="symb">Symbol(!@#$%)</label>
+            </div>
+        </section>
+        <button>Generate</button>
+        <section class="inp">
+            <span class="pas"></span>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
